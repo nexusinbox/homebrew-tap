@@ -1,28 +1,28 @@
 class Nexusinbox < Formula
   desc "Connect this computer to a NexusInbox agent"
   homepage "https://github.com/nexusinbox/nexusinbox"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/nexusinbox/nexusinbox/releases/download/v0.3.0/nexusinbox-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "deed4f44f8e8f6cc1ed6a72c807a2826e3406728c1d5977bd072c161e888040c"
+      url "https://github.com/nexusinbox/nexusinbox/releases/download/v0.4.0/nexusinbox-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "83fc92ac5d525939fd9fc68695d634d0404446015dd667e17df1452042568aff"
     end
     on_intel do
-      url "https://github.com/nexusinbox/nexusinbox/releases/download/v0.3.0/nexusinbox-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2f08c924bb3eaa523115e0d49da8a8b31b3eb0f1c2225127ed9031a09ea0edf7"
+      url "https://github.com/nexusinbox/nexusinbox/releases/download/v0.4.0/nexusinbox-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d5f0f927e2a55271f60b7e7c30813de3cd2f5e8467843d94a5374f52cc93eedc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nexusinbox/nexusinbox/releases/download/v0.3.0/nexusinbox-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8f7223d6659b7d9c9bc4701bf4597ef871739d04f51928027bfcc73ed2a6bccd"
+      url "https://github.com/nexusinbox/nexusinbox/releases/download/v0.4.0/nexusinbox-0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e153767bddfc1301b95521926dec7a9dfddc0bd03814e4dd3ce8f320476ecbce"
     end
     on_intel do
-      url "https://github.com/nexusinbox/nexusinbox/releases/download/v0.3.0/nexusinbox-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3f57f6943d74fe5b62b25808cb672a76dd7c2fc9fdec51d4df64ab3b7639049f"
+      url "https://github.com/nexusinbox/nexusinbox/releases/download/v0.4.0/nexusinbox-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b690b9d99467317fee2490f51dae1ccb7cf60358da5220d30861baaa1d21628d"
     end
   end
 
